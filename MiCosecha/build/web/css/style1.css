@@ -1,0 +1,93 @@
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 250;
+    background : ;
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+.bg-dark {
+    background-color: var(--color-dark)!important;
+}
+
+.p-6 {
+    padding: 1rem 5rem;
+}
+
+.contact-box {
+    padding: 2rem;
+}
+
+.btn {
+    font-weight: 500;
+    padding: 1rem 2rem;
+    border-radius: 7rem;
+    min-width: 10rem;
+    background-color: green;
+    
+}
+
+.btn-outline-dark {
+    border: 2px solid;
+}
+
+
+.form-control {
+    background-color: var(--color-dark-xx);
+    border: 1px solid var(--color-dark-xx);
+    border-radius: 40rem;
+    padding: 0.6rem 2rem;
+}
+
+.register-bg {
+    background-image: url('../images/cama4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.testiomonial {
+    bottom: 10px
+}
+
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .register-bg {
+        min-height: 50vh;
+    }
+}
+video{
+	position: fixed;	
+	min-width: 100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
