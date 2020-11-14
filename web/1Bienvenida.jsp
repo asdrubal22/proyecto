@@ -98,11 +98,6 @@
         </header>
         <!-- End Main Top -->
         
-        
-        
-        
-        
-
         <!-- End Top Search -->
 
         <!-- Start Slider -->
@@ -113,7 +108,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="m-b-20"><strong>Bienvenido a<br> TuCosecha</strong></h1>
+                                <h1 class="m-b-20"><strong>Bienvenido a<br> COSECHA123</strong></h1>
                                 <p class="m-b-40">Aca usted como buen colombiano podra ver los productos<br> que sus vecinos cosechan para cambiar o vender contigo. </p>
 
                             </div>
